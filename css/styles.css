@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/*NAVBAR*/
+
+.navbar {
+    background-color: #42C2FF;  
+}
+.navbar-dark .navbar-brand {
+    color: #EFFFFD;
+}
+
+/*FORM*/
+
+.backgroundForm {
+    background-color: #42C2FF;
+    margin: 4rem 0rem 4rem 0rem;
+    padding: 2rem 0rem 2rem 0rem;
+}
+.form {
+    background-color: #EFFFFD;
+    padding: 1rem 2rem 1rem 2rem;
+    border-radius: 2rem;
+}
+
+/*CART*/
+
+.containerCart{
+    display: flex;
+    justify-content: center;
+}
+.btn-primary {
+    background-color: #42C2FF;
+    border-color: #EFFFFD;
+    color: #EFFFFD;
+    font-size: 1.25rem;  
+}
+.btn-primary:hover {
+    background-color: #00adfd;
+    border-color: #42C2FF;
+    color: #EFFFFD;
+    font-size: 1.30rem; 
+}
