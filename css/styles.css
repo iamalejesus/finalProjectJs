@@ -23,7 +23,7 @@
 }
 .form {
     background-color: #EFFFFD;
-    padding: 1rem 2rem 1rem 2rem;
+    padding: 1rem 2rem 2rem 2rem;
     border-radius: 2rem;
 }
 h6 {
@@ -31,6 +31,9 @@ h6 {
     color: #EFFFFD;
     margin-top: 2rem;
 }
+/*p {
+    margin-top: 1rem;
+}*/
 
 /*CART*/
 
