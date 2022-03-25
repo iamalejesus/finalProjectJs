@@ -16,7 +16,7 @@
 
 /*FORM*/
 
-.backgroundForm {
+.background {
     background-color: #42C2FF;
     margin: 4rem 0rem 4rem 0rem;
     padding: 2rem 0rem 2rem 0rem;
@@ -26,6 +26,11 @@
     padding: 1rem 2rem 1rem 2rem;
     border-radius: 2rem;
 }
+h6 {
+    text-align: center;
+    color: #EFFFFD;
+    margin-top: 2rem;
+}
 
 /*CART*/
 
@@ -33,15 +38,27 @@
     display: flex;
     justify-content: center;
 }
+.d-grid {
+    display: flex;
+}
 .btn-primary {
     background-color: #42C2FF;
     border-color: #EFFFFD;
     color: #EFFFFD;
     font-size: 1.25rem;  
+    margin: 0.5rem;
 }
 .btn-primary:hover {
     background-color: #00adfd;
     border-color: #42C2FF;
     color: #EFFFFD;
     font-size: 1.30rem; 
+}
+.background img {
+    margin: auto;
+    display: flex;
+}
+h3 {
+    text-align: center;
+    color: #EFFFFD;
 }
