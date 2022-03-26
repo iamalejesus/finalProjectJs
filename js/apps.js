@@ -1,4 +1,4 @@
-const cp = new CalculadorPasaje(destino, pasajes, tipoClase, comida);
+const cotizadorPasaje = new CalculadorPasaje(destino, pasajes, tipoClase, comida);
 
 selectDestino.innerHTML += cargoDestino();
 selectPasajes.innerHTML += cargoTickets();
