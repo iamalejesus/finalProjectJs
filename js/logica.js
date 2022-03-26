@@ -35,7 +35,6 @@ const faltanCargarDatos = ()=> {
 }
 
 const cotizarPasaje = ()=> {
-    debugger
     if (faltanCargarDatos()) {
         alert("Completá todos los ítems!")
         return
