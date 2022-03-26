@@ -44,7 +44,7 @@ const cotizarPasaje = ()=> {
         tick = parseFloat(selectPasajes.value);
         cla = parseFloat(selectClase.value);
         co  = parseFloat(selectComida.value);
-        valorDelPasaje = cp.valorDePasaje(desti, tick, cla, co);
+        valorDelPasaje = cp.valorDePasaje(desti, tick, cla, co, 1);
         valorPasaje.innerText = `$ ${valorDelPasaje}`
     }
 }
