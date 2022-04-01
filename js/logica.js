@@ -34,7 +34,7 @@ const faltanCargarDatos = ()=> {
     return (selectDestino.value.trim() == "" || selectPasajes.value.trim() == "" || selectClase.value.trim() == "" || selectComida.value.trim() == "")
 }
 
-const cotizarPasaje = ()=> {
+/*const cotizarPasaje = ()=> {
     if (faltanCargarDatos()) {
         Swal.fire({
             icon: 'error',
@@ -53,4 +53,24 @@ const cotizarPasaje = ()=> {
         valorDelPasaje = cotizadorPasaje.valorDePasaje(desti, tick, cla, co, 1);
         valorPasaje.innerText = `$ ${valorDelPasaje}`
     }
+}*/
+
+/* SIMPLIFICANDO const cotizarPasaje CON OPERADOR TERNARIO */
+
+const cotizarPasaje = ()=> {
+    (faltanCargarDatos()) ?
+        Swal.fire({
+            icon: 'error',
+            title: 'Oops...',
+            text: 'Completá todos los datos!',
+            background: "#EFFFFD",
+            allowOutsideClick: false,
+            confirmButtonColor: "#42C2FF",
+        }) :
+        desti = parseFloat(selectDestino.value);
+        tick = parseFloat(selectPasajes.value);
+        cla = parseFloat(selectClase.value);
+        co  = parseFloat(selectComida.value);
+        valorDelPasaje = cotizadorPasaje.valorDePasaje(desti, tick, cla, co, 1);
+        valorPasaje.innerText = `$ ${valorDelPasaje}`
 }
