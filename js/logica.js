@@ -36,7 +36,14 @@ const faltanCargarDatos = ()=> {
 
 const cotizarPasaje = ()=> {
     if (faltanCargarDatos()) {
-        alert("Completá todos los ítems!")
+        Swal.fire({
+            icon: 'error',
+            title: 'Oops...',
+            text: 'Completá todos los datos!',
+            background: "#EFFFFD",
+            allowOutsideClick: false,
+            confirmButtonColor: "#42C2FF",
+        })
         return
     } else {
         desti = parseFloat(selectDestino.value);
