@@ -7,3 +7,4 @@ selectComida.innerHTML += cargoComida();
 
 btnCalcular.addEventListener("click", ()=> cotizarPasaje());
 btnRefrescar.addEventListener("click", ()=> location.reload());
+document.addEventListener("keydown", checkOut);

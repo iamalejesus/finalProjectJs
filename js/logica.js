@@ -74,3 +74,10 @@ const cotizarPasaje = ()=> {
         valorDelPasaje = cotizadorPasaje.valorDePasaje(desti, tick, cla, co, 1);
         valorPasaje.innerText = `$ ${valorDelPasaje}`
 }
+
+function checkOut (event){
+    const enter = event.keyCode;
+    if (enter == 13){
+        cotizarPasaje ();
+    }
+}
