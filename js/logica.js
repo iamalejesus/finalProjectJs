@@ -34,6 +34,15 @@ const faltanCargarDatos = ()=> {
     return (selectDestino.value.trim() == "" || selectPasajes.value.trim() == "" || selectClase.value.trim() == "" || selectComida.value.trim() == "")
 }
 
+const realizarCalculo = () => {
+    desti = parseFloat(selectDestino.value);
+        tick = parseFloat(selectPasajes.value);
+        cla = parseFloat(selectClase.value);
+        co  = parseFloat(selectComida.value);
+        valorDelPasaje = cotizadorPasaje.valorDePasaje(desti, tick, cla, co, 1);
+        valorPasaje.innerText = `$ ${valorDelPasaje}`
+}
+
 /*const cotizarPasaje = ()=> {
     if (faltanCargarDatos()) {
         Swal.fire({
@@ -67,12 +76,7 @@ const cotizarPasaje = ()=> {
             allowOutsideClick: false,
             confirmButtonColor: "#42C2FF",
         }) :
-        desti = parseFloat(selectDestino.value);
-        tick = parseFloat(selectPasajes.value);
-        cla = parseFloat(selectClase.value);
-        co  = parseFloat(selectComida.value);
-        valorDelPasaje = cotizadorPasaje.valorDePasaje(desti, tick, cla, co, 1);
-        valorPasaje.innerText = `$ ${valorDelPasaje}`
+        realizarCalculo ()
 }
 
 function checkOut (event){
