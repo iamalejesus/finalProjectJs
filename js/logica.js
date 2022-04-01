@@ -62,7 +62,7 @@ const cotizarPasaje = ()=> {
         Swal.fire({
             icon: 'error',
             title: 'Oops...',
-            text: 'Completá todos los datos!',
+            text: 'Completá todos los ítems!',
             background: "#EFFFFD",
             allowOutsideClick: false,
             confirmButtonColor: "#42C2FF",
