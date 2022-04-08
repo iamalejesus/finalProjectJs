@@ -1,4 +1,5 @@
-const destino = [   {"dest": "Buenos Aires, Ciudad de Buenos Aires, Argentina", "factor": 10950},
+const destino = [   {"dest": "Buenos Aires, Ciudad de Buenos Aires, Argentina", 
+                    "factor": 10950},
                     {"dest": "Nueva York, Nueva York, Estados Unidos", "factor": 190769},
                     {"dest": "Miami, Florida, Estados Unidos", "factor": 179270},
                     {"dest": "Los Ángeles, California, Estados Unidos", "factor": 

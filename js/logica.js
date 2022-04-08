@@ -1,7 +1,7 @@
 const cargoDestino = ()=> {
     let optionD
         for (let destiny of destino) {
-            optionD += `<option value="${destiny.factor}">${destiny.dest}</option>`
+            optionD += `<option value="${destiny.factor}" id="${destiny.id}">${destiny.dest}</option>`
         }
         return optionD
 }
@@ -9,7 +9,7 @@ const cargoDestino = ()=> {
 const cargoTickets = ()=> {
     let optionT
         for (let tickets of pasajes) {
-            optionT += `<option value="${tickets.factor}">${tickets.ticket}</option>`
+            optionT += `<option value="${tickets.factor}" id="${tickets.id}">${tickets.ticket}</option>`
         }
         return optionT
 }
@@ -17,7 +17,7 @@ const cargoTickets = ()=> {
 const cargoTipoClase = ()=> {
     let optionTC
         for (let clase of tipoClase) {
-            optionTC += `<option value="${clase.factor}">${clase.tipo}</option>`
+            optionTC += `<option value="${clase.factor}" id="${clase.id}">${clase.tipo}</option>`
         }
         return optionTC
 }
@@ -25,7 +25,7 @@ const cargoTipoClase = ()=> {
 const cargoComida = ()=> {
     let optionC
         for (let food of comida) {
-            optionC += `<option value="${food.factor}">${food.com}</option>`
+            optionC += `<option value="${food.factor}" id="${food.id}">${food.com}</option>`
         }
         return optionC
 }

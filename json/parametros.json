@@ -1,0 +1,62 @@
+[   
+    {
+    "dest": "Buenos Aires, Ciudad de Buenos Aires, Argentina", 
+    "factor": 10950,
+    "id":"dest1"
+    },
+    {
+        "dest": "Nueva York, Nueva York, Estados Unidos", 
+        "factor": 190769,
+        "id":"dest2"
+    },
+    {
+        "dest": "Miami, Florida, Estados Unidos", 
+        "factor": 179270,
+        "id":"dest3"
+    },
+    {
+        "dest": "Los Ángeles, California, Estados Unidos", 
+        "factor": 110480,
+        "id":"dest4"
+    },
+    {
+        "dest": "Londres, Inglaterra, Reino Unido", 
+        "factor": 144631,
+        "id":"dest5"
+    },
+    {
+        "dest": "Roma, Lazio, Italia", 
+        "factor": 216200,
+        "id":"dest6"
+    },
+    {
+        "dest": "Madrid, Comunidad de Madrid, España", 
+        "factor": 134181,
+        "id": "dest7"
+    },
+    {
+        "dest": "París, Ile de France, Francia", 
+        "factor": 198640,
+        "id":"dest8"
+    },
+    {
+        "dest": "Berlín, Berlín, Alemania", 
+        "factor": 164540,
+        "id":"dest9"
+    },
+    {
+        "dest": "Tokio, Tokyo-to, Japón", 
+        "factor": 217352,
+        "id":"dest10"
+    },
+    {
+        "dest": "Beijing, Guangdong Sheng, República Popular China", 
+        "factor": 368394,
+        "id":"dest11"
+    },
+    {
+        "dest": "Sídney, Nueva Gales del Sur, Australia", 
+        "factor": 244508,
+        "id":"dest12"
+    }
+]
