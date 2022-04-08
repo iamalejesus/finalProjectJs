@@ -3,7 +3,7 @@ function request(){
     .then(function(response){
         return response.json
     })
-    .then(function(response) {
-        console.log(response)
+    .then(function(json) {
+        console.log(json)
     })
 }
