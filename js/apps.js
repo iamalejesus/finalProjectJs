@@ -17,7 +17,6 @@ function request(){
         return response.json();
     })
     .then(function(data) {
-        console.log(data.destino);
         selectDestino.innerHTML += cargoDestino(data.destino);
         selectPasajes.innerHTML += cargoTickets(data.pasajes);
         selectClase.innerHTML += cargoTipoClase(data.tipoClase);
