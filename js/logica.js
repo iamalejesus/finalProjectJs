@@ -1,30 +1,30 @@
-const cargoDestino = ()=> {
+const cargoDestino = (destByPromise)=> {
     let optionD
-        for (let destiny of destino) {
+        for (let destiny of destByPromise) {
             optionD += `<option value="${destiny.factor}" id="${destiny.id}">${destiny.dest}</option>`
         }
         return optionD
 }
 
-const cargoTickets = ()=> {
+const cargoTickets = (pasajesbyPromise)=> {
     let optionT
-        for (let tickets of pasajes) {
+        for (let tickets of pasajesbyPromise) {
             optionT += `<option value="${tickets.factor}" id="${tickets.id}">${tickets.ticket}</option>`
         }
         return optionT
 }
 
-const cargoTipoClase = ()=> {
+const cargoTipoClase = (claseByPromise)=> {
     let optionTC
-        for (let clase of tipoClase) {
+        for (let clase of claseByPromise) {
             optionTC += `<option value="${clase.factor}" id="${clase.id}">${clase.tipo}</option>`
         }
         return optionTC
 }
 
-const cargoComida = ()=> {
+const cargoComida = (comidaByPromise)=> {
     let optionC
-        for (let food of comida) {
+        for (let food of comidaByPromise) {
             optionC += `<option value="${food.factor}" id="${food.id}">${food.com}</option>`
         }
         return optionC
