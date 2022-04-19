@@ -1,15 +1,15 @@
 const cotizadorPasaje = new CalculadorPasaje(destino, pasajes, tipoClase, comida);
 
-//selectDestino.innerHTML += cargoDestino();
-//selectPasajes.innerHTML += cargoTickets();
-//selectClase.innerHTML += cargoTipoClase();
-//selectComida.innerHTML += cargoComida();
+selectDestino.innerHTML += cargoDestino();
+selectPasajes.innerHTML += cargoTickets();
+selectClase.innerHTML += cargoTipoClase();
+selectComida.innerHTML += cargoComida();
 
 btnCalcular.addEventListener("click", ()=> cotizarPasaje());
 btnRefrescar.addEventListener("click", ()=> location.reload());
 document.addEventListener("keydown", checkOut);
 
-/*--AJAX - FETCH()--*/
+/*--AJAX - FETCH()--
 
 function request(){ 
     fetch("json/parametros.json")
@@ -22,4 +22,4 @@ function request(){
         selectClase.innerHTML += cargoTipoClase(data.tipoClase);
         selectComida.innerHTML += cargoComida(data.comida);
     })
-}
+}*/
